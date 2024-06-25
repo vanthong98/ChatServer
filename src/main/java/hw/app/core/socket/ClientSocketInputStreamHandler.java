@@ -36,7 +36,7 @@ public class ClientSocketInputStreamHandler extends Thread {
                 }
 
                 if (message.isEmpty()){
-                    Thread.sleep(100);
+                    Thread.sleep(50);
                     continue;
                 }
 
